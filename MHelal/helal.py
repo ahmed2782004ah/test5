@@ -8,8 +8,8 @@ API_ID = int("8186557")
 API_HASH = "efd77b34c69c164ce158037ff5a0d117"
 Bots = []
 off =None
-ch = "CH_ELMSRY" # يوزر قناتك
-DEVS = ["MohamedHelal_l", "DEV_AH6"] #يوزرات المطورين المصنع
+ch = "UI_VM" # يوزر قناتك
+DEVS = ["VVYVVJ", "K_O_W_4"] #يوزرات المطورين المصنع
 @Client.on_message(filters.private)
 async def me(client, message):
    if off:#'‹ ٰ💸 ⇣ سورس الفراعنة ⇣ 💸 › .'#
@@ -34,11 +34,11 @@ async def alivehi(client: Client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿️", url=f"https://t.me/EIUIS"),
-                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/UI_SB"),
+                InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿️", url=f"https://t.me/YR_HX"),
+                InlineKeyboardButton("𝚂𝙾𝚄𝚁𝙲𝙴️", url=f"https://t.me/UI_VM"),
             ],
             [
-                 InlineKeyboardButton(f"𝗗𝗘𝗩 𝗦𝗔𝗦𝗔 💎", url=f"https://t.me/DEV_SASA")
+                 InlineKeyboardButton(f"AFROTOO", url=f"https://t.me/VVYVVJ")
             ]
         ]
     )
@@ -110,7 +110,7 @@ async def makedhelal(client, message):
   x = f'BOT_TOKEN = {TOKEN}\nSTRING_SESSION = {SESSION}\nOWNER_ID = {Dev}\nLOG_GROUP_ID = {LOG}'
   env.write(x)
   env.close()
-  os.system(f"cd users/{id} && screen -d -m -S {id} python3.8 -m YukkiMusic")
+  os.system(f"cd users/{id} && screen -d -m -S {id} python3.8 -m ZelzalMusic")
   oo = [id, Dev]
   Bots.append(oo)
   await message.reply_text("تم صنع بوتك بنجاح 🌿♥️")
